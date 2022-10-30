@@ -9,10 +9,10 @@ body{
 
 /* 배경색상 */
 .brand1{
-    background-color: #fff;
+    background-color: rgb(192, 223, 228);
 }
 .brand2{
-    background-color: #fff;
+    background-color: rgb(192, 223, 228);
 }
 
 /* 이미지 크기 */
@@ -38,7 +38,7 @@ ul li a{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .btn_1 li a{
-    background: #4b5f56;
+    background: #215982;
     color:#fff;
 }
 .btn_2 li a{
