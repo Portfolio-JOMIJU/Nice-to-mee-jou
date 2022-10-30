@@ -1,0 +1,12 @@
+*{margin:0; padding:0;}
+/* icon 꾸미기 */
+.top{
+  position:fixed; 
+  bottom:107px; 
+  right: 66px;
+  z-index: 90;
+  display:none;
+}
+.top img{
+  width: 80px;
+}
