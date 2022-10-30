@@ -172,8 +172,8 @@ $(document).ready(function () {
             if( bottom_of_window > bottom_of_object ){
 
                 $('.chart').easyPieChart({
-                    barColor: '#0868fa',
-                    trackColor: '#9ec4ff',
+                    barColor: '#2d6ccd',
+                    trackColor: '#a2c3f6',
                     scaleColor: '#fff',
                     lineCap: 'round',
                     lineWidth: 10,
@@ -188,3 +188,22 @@ $(document).ready(function () {
     
 
 });
+
+$(document).ready(function(){
+    /*웹페이지 열었을 때*/
+    $("#me").show();
+    $("#me_v").hide();
+
+    /*img1을 클릭했을 때 img2를 보여줌*/
+    $("#me").click(function(){
+        $("#me").hide();
+        $("#me_v").show();
+    });
+
+    /*img2를 클릭했을 때 img1을 보여줌*/
+    $("#me_v").click(function(){
+        $("#me").show();
+        $("#me_v").hide();
+    });
+});
+
